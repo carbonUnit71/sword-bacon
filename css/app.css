@@ -1,0 +1,83 @@
+/********* CSS By Michael Capanelli 2016 ***********/
+
+/* ***********************************************************************
+GENERAL
+***********************************************************************/
+.wrap{
+	width: 90%;
+	max-width: 68.750em;
+	margin: 1.25em;
+	padding: 1em;
+}
+
+/* ***********************************************************************
+NAV
+***********************************************************************/
+ 
+.nav-desktop {
+	background-color: #222;
+	padding: 1em;
+}
+
+.site-logo{
+	color: rgba(255,255,255,0.8);
+}
+
+.nav-desktop .menu-desktop{
+	background-color: transparent;
+}
+
+.nav-desktop a{
+	color:rgba(255,255,255,0.8);
+}
+
+/* ***********************************************************************
+HERO
+***********************************************************************/
+.hero{
+    background: #999;
+    padding: 1em;
+    background-image: url('../img/moulin.png');
+	 
+}
+
+.hero h1{
+	color: rgba(255,255,255,0.8);
+}
+
+.hero p{
+    color: rgba(255,255,255,0.8);
+}
+
+
+/* ***********************************************************************
+FOOTER
+***********************************************************************/
+
+footer {
+	background-color: #222;
+	padding: 1em;
+	background-image: url('../img/moulin.png');
+}
+
+footer a {
+	display: block;
+	color: rgba(255,255,255,0.6);
+}
+
+footer h4{
+	color: rgba(255,255,255,0.8);
+}
+
+footer a:hover {
+	color: rgba(255,255,255,0.8);
+}
+
+footer a span{
+	font-weight: bold;
+}
+
+footer hr{
+	border-color: rgba(255,255,255,0.1);
+}
+
