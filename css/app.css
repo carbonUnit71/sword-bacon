@@ -106,3 +106,12 @@ footer hr{
 	}
 }
 
+@media (min-width: 700px){
+
+	.title-bar{
+		display: none;
+	}
+}
+
+
+
