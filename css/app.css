@@ -21,10 +21,12 @@ NAV
 
 .site-logo{
 	color: rgba(255,255,255,0.8);
+	 
 }
 
 .nav-desktop .menu-desktop{
 	background-color: transparent;
+
 }
 
 .nav-desktop a{
@@ -32,12 +34,15 @@ NAV
 	font-weight: bold;
 }
 
-.nav-desktop a:hover {
-	color: rgba(255,255,255,0.8);
-}
-
-.menu >li >a {
+ .menu >li >a {
 	display: inline-block;
+	line-height: 3em;
+	padding-top: 0;
+	padding-bottom: 0;
+ }
+
+ .menu >li >a:hover {
+	color: rgba(255,255,255,0.8);
 }
 
 /* ***********************************************************************
@@ -88,5 +93,16 @@ footer a span{
 
 footer hr{
 	border-color: rgba(255,255,255,0.1);
+}
+
+/* ***********************************************************************
+@Media 
+***********************************************************************/
+
+@media (max-width: 700px){
+
+	.nav-desktop{
+		display: none;
+	}
 }
 
