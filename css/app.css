@@ -17,6 +17,8 @@ NAV
 .nav-desktop {
 	background-color: #222;
 	padding: 1em;
+	margin: 0 auto;
+
 }
 
 .site-logo{
@@ -26,6 +28,8 @@ NAV
 
 .nav-desktop .menu-desktop{
 	background-color: transparent;
+	 
+
 
 }
 
@@ -34,16 +38,53 @@ NAV
 	font-weight: bold;
 }
 
- .menu >li >a {
+ .menu a {
 	display: inline-block;
 	line-height: 3em;
 	padding-top: 0;
 	padding-bottom: 0;
  }
 
- .menu >li >a:hover {
+ .menu a:hover {
 	color: rgba(255,255,255,0.8);
 }
+
+/* ***********************************************************************
+MOBILE NAV
+***********************************************************************/
+
+.title-bar{
+	background-color: #222;
+	padding: 1.063em;
+}
+
+.off-canvas-wrapper{
+	background-color: #222;
+
+}
+
+#mobile-menu {
+	background-color: transparent;
+	padding: 0.625em;
+}
+
+#mobile-menu li{
+	list-style: none;
+	 
+}
+
+#mobile-menu a{
+	color: rgba(255,255,255,0.6);
+	font-weight: bold;
+	line-height: 2;
+}
+
+#mobile-menu a:hover {
+	color: rgba(255,255,255,0.8);
+}
+
+ 
+
 
 /* ***********************************************************************
 HERO
@@ -51,6 +92,7 @@ HERO
 .hero{
     background: #999;
     padding: 1em;
+    margin: 0 auto;
     background-image: url('../img/moulin.png');
 	 
 }
