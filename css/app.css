@@ -105,6 +105,11 @@ HERO
     color: rgba(255,255,255,0.8);
 }
 
+.hero img{
+	width: 90%;
+	background-repeat: no-repeat;
+}
+
 
 /* ***********************************************************************
 FOOTER
