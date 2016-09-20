@@ -90,8 +90,6 @@ Splash
 #logo{
 	margin-left: 100px;
 	padding: 1.5em;
-	
-
 }
 
 
@@ -149,6 +147,11 @@ footer a span{
 
 footer hr{
 	border-color: rgba(255,255,255,0.1);
+}
+
+#social a{
+    display: inline-block;
+    padding: .5em;
 }
 
 /* ***********************************************************************
