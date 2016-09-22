@@ -4,7 +4,7 @@
 GENERAL
 ***********************************************************************/
 .wrap{
-	width: 90%;
+	width: 100%;
 	max-width: 68.750em;
 	margin: 1.25em;
 	padding: 1em;
@@ -99,9 +99,11 @@ HERO
 ***********************************************************************/
 .hero{
     background: #999;
+    height: 100%;
     padding: 1em;
     margin: 0 auto;
-    background-image: url('../img/moulin.png');
+    background-image: url('../img/meyerherotint.png');
+    background-repeat: no-repeat;
 	 
 }
 
