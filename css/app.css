@@ -104,15 +104,16 @@ HERO
     margin: 0 auto;
     background-image: url('../img/meyerherotint.png');
     background-repeat: no-repeat;
+    background-size: cover;
 	 
 }
 
 .hero h1{
-	color: rgba(255,255,255,0.8);
+	color: rgba(247,249,255,0.8);
 }
 
 .hero p{
-    color: rgba(255,255,255,0.8);
+    color: rgba(247,249,255,0.8);
 }
 
 .hero img{
