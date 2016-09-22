@@ -114,6 +114,7 @@ HERO
 
 .hero p{
     color: rgba(247,249,255,0.8);
+    font-weight: bold;
 }
 
 .hero img{
@@ -141,6 +142,7 @@ FOOTER
 footer {
 	background-color: #222;
 	padding: 1em;
+	margin: 0 auto;
 	background-image: url('../img/moulin.png');
 }
 
@@ -169,6 +171,14 @@ footer hr{
     display: inline-block;
     padding: .5em;
 }
+
+#form{
+	margin: 0 auto;
+	color: rgba(255,255,255,0.8);
+	 
+}
+
+ 
 
 /* ***********************************************************************
 @Media 
