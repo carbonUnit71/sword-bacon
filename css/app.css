@@ -135,7 +135,7 @@ HERO
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 10, 10, 0.9); 
+  background-color: rgba(10, 10, 10, 0.4); 
 }
 
 .orbit-caption p {
